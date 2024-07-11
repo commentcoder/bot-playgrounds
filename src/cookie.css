@@ -1,0 +1,65 @@
+/* src/Cookie.css */
+.cookie-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cookie {
+   -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  font-size: 200px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.cookie.animate {
+  animation: cookie-pop 0.3s ease;
+}
+
+@keyframes cookie-pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.upgrades {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.upgrades button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.upgrade-btn {
+  background: #282c34;
+  border-radius: 4px;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
