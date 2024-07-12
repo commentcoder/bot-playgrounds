@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 import Home from "./Home";
@@ -9,11 +9,7 @@ import ClickerBot from "./1_clicker_bot/ClickerBot";
 import ImageBot from "./2_image_bot/ImageBot";
 import TextBot from "./3_text_bot/TextBot";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
+const router = createHashRouter([
   {
     path: "/squares",
     element: <CursorBot />,
@@ -29,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/modify",
     element: <TextBot />,
+  },
+  {
+    path: "/*",
+    element: <Home />,
   },
 ]);
 
