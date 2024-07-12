@@ -54,3 +54,15 @@ h1 {
     transform: rotate(360deg);
   }
 }
+
+.Home__Link {
+    background: #121212;
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 300px;
+    margin: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+  }

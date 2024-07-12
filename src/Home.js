@@ -1,20 +1,7 @@
 import "./index.css";
 
 const Link = ({ href, children }) => (
-  <a
-    style={{
-      background: "#121212",
-      padding: "20px 30px",
-      color: "white",
-      textDecoration: "none",
-      fontWeight: "bold",
-      width: 300,
-      margin: 4,
-      borderRadius: 8,
-      cursor: "pointer",
-    }}
-    href={href}
-  >
+  <a className="Home__Link" href={href}>
     {children}
   </a>
 );
