@@ -1,6 +1,6 @@
 // src/WhacAMole.js
 import React, { useState, useEffect, useRef } from "react";
-import "./taupe.css";
+import "./imagebot.css";
 import "./App.css";
 
 const MOLE_SHOW_TIME = 2000; // Mole appears for 1 second
