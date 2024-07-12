@@ -11,7 +11,13 @@ const Case = () => {
     }, 500);
   };
 
-  return <div className="square" onMouseEnter={handleMouseEvent} />;
+  return (
+    <div
+      className="square"
+      style={{ background: "#848484" }}
+      onMouseEnter={handleMouseEvent}
+    />
+  );
 };
 
 const CursorBot = () => {
