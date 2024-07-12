@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Les pages vues dans la vidéo Comment créer un bot ? Tutoriel Python complet pour débutants avec PyAutoGUI
+
+Liens vers le site : https://commentcoder.github.io/bot-playgrounds/
+Lien vers la vidéo : https://www.youtube.com/watch?v=yEYN4P0lRzY&list=PLeXyx0kOyiXtq9L7Bgix4Gqp_WXZoSy8z&index=56
+Lien vers le code des bots : https://github.com/commentcoder/bot-python-pyautogui
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
