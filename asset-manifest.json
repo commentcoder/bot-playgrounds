@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bot-playgrounds/static/css/main.ad9819b1.css",
-    "main.js": "/bot-playgrounds/static/js/main.8d170ddf.js",
+    "main.js": "/bot-playgrounds/static/js/main.c1ba88c1.js",
     "static/js/453.4d0de225.chunk.js": "/bot-playgrounds/static/js/453.4d0de225.chunk.js",
     "static/media/cursor-gold.svg": "/bot-playgrounds/static/media/cursor-gold.9f0badf2d36aadec35a38635d68f92fd.svg",
     "static/media/cursor-plus.svg": "/bot-playgrounds/static/media/cursor-plus.09afd3f4d491d5b84abf54e3c5d1f263.svg",
     "index.html": "/bot-playgrounds/index.html",
     "main.ad9819b1.css.map": "/bot-playgrounds/static/css/main.ad9819b1.css.map",
-    "main.8d170ddf.js.map": "/bot-playgrounds/static/js/main.8d170ddf.js.map",
+    "main.c1ba88c1.js.map": "/bot-playgrounds/static/js/main.c1ba88c1.js.map",
     "453.4d0de225.chunk.js.map": "/bot-playgrounds/static/js/453.4d0de225.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad9819b1.css",
-    "static/js/main.8d170ddf.js"
+    "static/js/main.c1ba88c1.js"
   ]
 }
