@@ -1,4 +1,5 @@
 import "../index.css";
+import "./cursorbot.css";
 
 const Case = () => {
   const handleMouseEvent = (e) => {
@@ -10,23 +11,18 @@ const Case = () => {
     }, 500);
   };
 
-  return (
-    <div
-      onMouseEnter={handleMouseEvent}
-      style={{ margin: 2, height: 60, width: 60, background: "#848484" }}
-    />
-  );
+  return <div className="square" onMouseEnter={handleMouseEvent} />;
 };
 
-export default () => {
+const CursorBot = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{ width: 60 * 5 + 10, margin: "100px auto" }}>
+        <div className="row">
           {Array(8)
             .fill(0)
             .map((x) => (
-              <div style={{ display: "flex" }}>
+              <div className="column">
                 {Array(5)
                   .fill(0)
                   .map((y) => (
@@ -39,3 +35,5 @@ export default () => {
     </div>
   );
 };
+
+export default CursorBot;
