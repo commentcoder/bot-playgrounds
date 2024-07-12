@@ -1,4 +1,4 @@
-import "./App.css";
+import "../index.css";
 
 const Case = () => {
   const handleMouseEvent = (e) => {

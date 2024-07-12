@@ -1,6 +1,6 @@
 import React from "react";
 import "./clickerbot.css";
-import "./App.css";
+import "../index.css";
 import cursorplus from "./cursor-plus.svg";
 import cursorgold from "./cursor-gold.svg";
 
